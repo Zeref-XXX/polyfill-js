@@ -1,5 +1,4 @@
 //map Array.map((callback) => { })
-
 // Array.prototype.myMap = function (cb) {
 //     let temp = []
 //     console.log(this)
