@@ -8,10 +8,8 @@ let car1 = {
 
 
 function Purchase(price) {
-    // console.log(`${this.brand} color ${this.color} availabe at ${this.price}`)
-    getInfo: () => {
         return `${this.brand} color ${this.color} availabe at ${this.price}`
-    }
+    
 }
 
-Purchase.call(car1);
+Purchase.call(car1(30));
