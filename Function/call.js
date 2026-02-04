@@ -3,17 +3,18 @@ let car1={
     brand:"tata"
 }
 
-function getCarInfo(){
-    console.log(`${this.brand} of colot ${this.color}`)
+function getCarInfo(price){
+    console.log(`${this.brand} of colot ${this.color} price ${price}`)
 }
 
 // getCarInfo.call(car1)
 
-Function.prototype.myCall = function (context, args) {
+Function.prototype.myCall = function (context, ...args) {
     context.fn=this
-    context.fn(args)
-
+    const result = context.fn(...args)
+    delete context.fn
+    return result
 }
 
 
-getCarInfo.myCall(car1)
+getCarInfo.myCall(car1,34)
