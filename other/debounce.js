@@ -1,4 +1,4 @@
-//after activity trigger
+//after activity trigger after delay inactivity 
 
 function debounce(func, delay) {
 

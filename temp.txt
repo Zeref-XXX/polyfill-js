@@ -6,15 +6,15 @@ Polyfill for Function.prototype.bind
 Promise.all polyfill with rejection handling   
 Promise.race polyfill resolving or rejecting on first settled    
 Promise.any polyfill with AggregateError support
-Promise.allSettled  polyfill returning status  objects   
 
+Promise.allSettled  polyfill returning status  objects   
 
 ---
 Debounce utility with immediate and trailing options  
 Throttle utility with leading and trailing modes   
-Memoization utility with cache eviction strategy 
  
 Deep clone utility handling circular references
-
 Async/await transpilation using generator functions
+Memoization utility with cache eviction strategy 
+
 ---
